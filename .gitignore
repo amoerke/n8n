@@ -1,2 +1,3 @@
 # Add env file to gitignore
 .env
+docker-compose-backup.yml
