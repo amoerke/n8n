@@ -4,9 +4,6 @@ volumes:
   ollama_storage:
   qdrant_storage:
 
-networks:
-  default:
-
 x-n8n: &service-n8n
   image: n8nio/n8n:latest
   environment:
